@@ -247,6 +247,7 @@ public class ReptitiveStatement {
 			System.out.println("*");
 			}System.out.println();
 	}
+		
 	
 	   for(int k = 2; k <= 5; k++){   //(나타내고자 하는 줄수)
 		   for(int j=5; j>=i; j--){   //(

@@ -20,8 +20,10 @@ public class exception {
 	
 
 		for(int i=0; i<10; i++){
+			int re = (int)(Math.random()*5);
+			System.out.println("이거 " + re);
 		try{
-			result = number/(int)(Math.random()*5);
+			result = number/re;
 			System.out.println(result);
 		}catch (ArithmeticException e){
 			System.out.println("0으로 나누지 마시오");
